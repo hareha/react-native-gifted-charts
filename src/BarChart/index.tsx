@@ -18,7 +18,7 @@ export const BarChart = (props: BarChartPropsType) => {
     onScroll: (ev: any) => props.onScroll?.(ev),
     onTouchStart: evt => {
       if (props.renderTooltip) {
-        setSelectedIndex(-1);
+        // setSelectedIndex(-1);
       }
     },
   };
